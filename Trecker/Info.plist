@@ -4,6 +4,16 @@
 <dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
+		<key>Appearance</key>
+		<string>Light</string>
+		<key>Bundle identifier</key>
+		<string></string>
+		<key>Fonts provided by application</key>
+		<array>
+			<string>YSDisplay-Medium.ttf</string>
+			<string>YSDisplay-Regular.ttf</string>
+			<string>YSDisplay-Bold.ttf</string>
+		</array>
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 		<key>UISceneConfigurations</key>
