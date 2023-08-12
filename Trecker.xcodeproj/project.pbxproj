@@ -37,9 +37,9 @@
 		E73BB6062A83B6960016B197 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73BB5EE2A83B6960016B197 /* Array.swift */; };
 		E73BB6072A83B6960016B197 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73BB5EF2A83B6960016B197 /* UIColor+Hex.swift */; };
 		E73BB6082A83B6960016B197 /* UIView+subViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73BB5F02A83B6960016B197 /* UIView+subViews.swift */; };
-		E73BB6092A83B6960016B197 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73BB5F22A83B6960016B197 /* PlaceholderView.swift */; };
-		E73BB60A2A83B6960016B197 /* YPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73BB5F32A83B6960016B197 /* YPButton.swift */; };
-		E73BB60B2A83B6960016B197 /* DisclosureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73BB5F42A83B6960016B197 /* DisclosureButton.swift */; };
+		E74D24C82A880B0200A3FEBD /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74D24C72A880B0200A3FEBD /* PlaceholderView.swift */; };
+		E74D24CA2A880B1A00A3FEBD /* YPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74D24C92A880B1A00A3FEBD /* YPButton.swift */; };
+		E74D24CC2A880B3400A3FEBD /* DisclosureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74D24CB2A880B3400A3FEBD /* DisclosureButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,9 +75,9 @@
 		E73BB5EE2A83B6960016B197 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		E73BB5EF2A83B6960016B197 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		E73BB5F02A83B6960016B197 /* UIView+subViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+subViews.swift"; sourceTree = "<group>"; };
-		E73BB5F22A83B6960016B197 /* PlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
-		E73BB5F32A83B6960016B197 /* YPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPButton.swift; sourceTree = "<group>"; };
-		E73BB5F42A83B6960016B197 /* DisclosureButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclosureButton.swift; sourceTree = "<group>"; };
+		E74D24C72A880B0200A3FEBD /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		E74D24C92A880B1A00A3FEBD /* YPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPButton.swift; sourceTree = "<group>"; };
+		E74D24CB2A880B3400A3FEBD /* DisclosureButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 			children = (
 				E73BB59C2A83AEA60016B197 /* AppDelegate.swift */,
 				E73BB59E2A83AEA60016B197 /* SceneDelegate.swift */,
-				E73BB5F12A83B6960016B197 /* Components */,
+				E74D24C62A880AE600A3FEBD /* Commponents */,
 				E73BB5ED2A83B6960016B197 /* Helpers */,
 				E73BB5E72A83B6960016B197 /* Models */,
 				E73BB5D62A83B6960016B197 /* Scenes */,
@@ -210,15 +210,14 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		E73BB5F12A83B6960016B197 /* Components */ = {
+		E74D24C62A880AE600A3FEBD /* Commponents */ = {
 			isa = PBXGroup;
 			children = (
-				E73BB5F22A83B6960016B197 /* PlaceholderView.swift */,
-				E73BB5F32A83B6960016B197 /* YPButton.swift */,
-				E73BB5F42A83B6960016B197 /* DisclosureButton.swift */,
+				E74D24C72A880B0200A3FEBD /* PlaceholderView.swift */,
+				E74D24C92A880B1A00A3FEBD /* YPButton.swift */,
+				E74D24CB2A880B3400A3FEBD /* DisclosureButton.swift */,
 			);
-			name = Components;
-			path = "../../../Downloads/practicum-ios-TrackerApp-sprint-14 2/TrackerApp/Components";
+			path = Commponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,12 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E73BB6092A83B6960016B197 /* PlaceholderView.swift in Sources */,
+				E74D24C82A880B0200A3FEBD /* PlaceholderView.swift in Sources */,
 				E73BB6012A83B6960016B197 /* TrackerCategory.swift in Sources */,
 				E73BB5FC2A83B6960016B197 /* ScheduleViewController.swift in Sources */,
 				E73BB5FF2A83B6960016B197 /* NewTracker.swift in Sources */,
 				E73BB5FE2A83B6960016B197 /* NewTrackerViewController.swift in Sources */,
-				E73BB60A2A83B6960016B197 /* YPButton.swift in Sources */,
+				E74D24CA2A880B1A00A3FEBD /* YPButton.swift in Sources */,
 				E73BB6002A83B6960016B197 /* TrackerTypeViewController.swift in Sources */,
 				E73BB5BD2A83B19F0016B197 /* FontAsset+UIFont.swift in Sources */,
 				E73BB6062A83B6960016B197 /* Array.swift in Sources */,
@@ -308,7 +307,7 @@
 				E73BB5BC2A83B19F0016B197 /* ColorAsset+UIColor.swift in Sources */,
 				E73BB6072A83B6960016B197 /* UIColor+Hex.swift in Sources */,
 				E73BB5F52A83B6960016B197 /* StatisticsViewController.swift in Sources */,
-				E73BB60B2A83B6960016B197 /* DisclosureButton.swift in Sources */,
+				E74D24CC2A880B3400A3FEBD /* DisclosureButton.swift in Sources */,
 				E73BB59F2A83AEA60016B197 /* SceneDelegate.swift in Sources */,
 				E73BB5F92A83B6960016B197 /* HomeViewController.swift in Sources */,
 				E73BB5FD2A83B6960016B197 /* ScheduleViewCell.swift in Sources */,
